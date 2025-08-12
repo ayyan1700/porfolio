@@ -371,7 +371,8 @@ html, body  {
 
  .project-card {
     width: 420px;
-    height: 480px;
+    height: auto;
+    padding: 18px;
      background-color: var(--darker-bg);
      border-radius: 10px;
      overflow: hidden;
@@ -607,4 +608,5 @@ html, body  {
 
  ::-webkit-scrollbar-thumb:hover {
      background: var(--neon-pink);
+
  }
